@@ -29,7 +29,6 @@ Extensive experiments on CRC datasets demonstrate that the proposed framework ou
 
 ### Classification Task Environment
 
-## Environment Setup
 
 This project is developed with **Python 3.8.18** and **PyTorch 1.13.1+cu117**. Follow the steps below to create a new conda environment named **MCIHIC** and install the necessary dependencies:
 
