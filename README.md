@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### Generation Task Environment
 
-For the generation task, please refer to the [FastGAN-pytorch repository](https://github.com/odegeasslbc/FastGAN-pytorch) for environmental details and dependency information.
+For the generation task, please refer to the [FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch) for environmental details and dependency information.
 
 
 
