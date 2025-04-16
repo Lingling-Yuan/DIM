@@ -43,7 +43,7 @@ pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url http
 
 # 3. Install all additional dependencies from the requirements.txt file
 pip install -r requirements.txt
-```bash
+ ``` 
 
 
 ### Generation Task Environment
