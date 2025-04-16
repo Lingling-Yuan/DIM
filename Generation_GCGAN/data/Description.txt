@@ -1,0 +1,2 @@
+This pathological image generation task comprises five datasets, each featuring classes with limited sample sizes. 
+If you require access to any of these datasets, please contact the first author at yuanlingling0314@163.com.

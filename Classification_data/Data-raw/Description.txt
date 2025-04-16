@@ -1,0 +1,4 @@
+The dataset used for classification has been pre-divided into training, validation, and test sets by the authors. 
+For experiments involving data-level approach (generating images with GCGAN), the training set is augmented with additional images according to each experiment's requirements. 
+In all other cases, the dataset remains unchanged. 
+For access to the dataset, please contact the first author at yuanlingling0314@163.com.
