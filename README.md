@@ -1,4 +1,4 @@
-# Mitigating Class Imbalance in Histopathological Image Classification for Colorectal Cancer Using Data-level and Algorithm-level Approaches
+# MCIHIC: Mitigating Class Imbalance in Histopathological Image Classification for Colorectal Cancer Using Data-level and Algorithm-level Approaches
 
 **Status:** Under Review
 
@@ -29,8 +29,21 @@ Extensive experiments on CRC datasets demonstrate that the proposed framework ou
 
 ### Classification Task Environment
 
-- **Python:** 3.8.18  
-- **PyTorch:** 1.13.1+cu117  
+## Environment Setup
+
+This project is developed with **Python 3.8.18** and **PyTorch 1.13.1+cu117**. Follow the steps below to create a new conda environment named **MCIHIC** and install the necessary dependencies:
+
+```bash
+# 1. Create and activate a new conda environment with Python 3.8.18
+conda create --name MCIHIC python=3.8.18 -y
+conda activate MCIHIC
+
+# 2. Install the specified version of PyTorch (1.13.1+cu117) and torchvision (compatible with CUDA 11.7)
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+
+# 3. Install all additional dependencies from the requirements.txt file
+pip install -r requirements.txt
+
 
 
 ### Generation Task Environment
