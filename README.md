@@ -2,14 +2,13 @@
 
 **Status:** Under Review
 
----
+
 
 ## Authors
 
 Lingling Yuan, Yang Chen, Md Rahaman, Hongzan Sun, Xiaoyan Li, Haoyuan Chen, Yutong Gu, Mengqing Su, Marcin Grzegorzek, Chen Li
 
 
----
 
 ## Abstract
 
@@ -24,7 +23,7 @@ Extensive experiments on CRC datasets demonstrate that the proposed framework ou
   
 ![Overview](Fig-overview.png)
 
----
+
 
 ## Environment Setup
 
@@ -38,7 +37,7 @@ Extensive experiments on CRC datasets demonstrate that the proposed framework ou
 
 For the generation task, please refer to the [FastGAN-pytorch repository](https://github.com/odegeasslbc/FastGAN-pytorch) for environmental details and dependency information.
 
----
+
 
 ## Dataset and Pre-trained Weights
 
