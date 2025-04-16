@@ -4,22 +4,10 @@
 
 ---
 
-## Authors and Affiliations
+## Authors
 
-- **Lingling Yuan** (第一作者)  
-  Group of Microscopic Image and Medical Image Analysis,  
-  College of Medicine and Biological Information Engineering, Northeastern University, Shenyang, China  
-  *(Email: yuanlingling0314@163.com)*
+Lingling Yuan, Yang Chen, Md Rahaman, Hongzan Sun, Xiaoyan Li, Haoyuan Chen, Yutong Gu, Mengqing Su, Marcin Grzegorzek, Chen Li
 
-- **Yang Chen**  
-- **Md Rahaman**  
-- **Hongzan Sun**  
-- **Xiaoyan Li**  
-- **Haoyuan Chen**  
-- **Yutong Gu**  
-- **Mengqing Su**  
-- **Marcin Grzegorzek** (University of Luebeck, Germany)  
-- **Chen Li** (Senior Member, IEEE)  
 
 ---
 
