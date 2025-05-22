@@ -32,11 +32,11 @@ Extensive experiments on single-FoV CRC datasets demonstrate that DIM-equipped L
 ### Classification Task Environment
 
 
-This project is developed with **Python 3.8.18** and **PyTorch 1.13.1+cu117**. Follow the steps below to create a new conda environment named **MCIHIC** and install the necessary dependencies:
+This project is developed with **Python 3.8.18** and **PyTorch 1.13.1+cu117**. Follow the steps below to create a new conda environment named **DIM** and install the necessary dependencies:
 
 ```bash
-conda create --name MCIHIC python=3.8.18 -y
-conda activate MCIHIC
+conda create --name DIM python=3.8.18 -y
+conda activate DIM
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install -r requirements.txt
  ``` 
