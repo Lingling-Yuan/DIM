@@ -1,4 +1,4 @@
-# MCIHIC: Mitigating Class Imbalance in Histopathological Image Classification for Colorectal Cancer Using Data-level and Algorithm-level Approaches
+# DIM: Dual-Level Imbalance Mitigation for Single-FoV Colorectal Histopathology Image Classification
 
 **Status:** Under Review
 
@@ -12,12 +12,14 @@ Lingling Yuan, Yang Chen, Md Rahaman, Hongzan Sun, Xiaoyan Li, Haoyuan Chen, Yut
 
 ## Abstract
 
-Histopathological image classification is crucial for colorectal cancer (CRC) diagnosis but suffers from severe class imbalance, leading to biased predictions and degraded performance. To mitigate this problem, we propose a novel framework that integrates data-level and algorithm-level approaches. Specifically:  
-1. **Data-level approach:** A global context generative adversarial network (GCGAN) is employed for data augmentation, generating realistic images to enhance dataset diversity.  
-2. **Algorithm-level approach:** A frequency-aware adaptive focal loss (FAFL) incorporates frequency-aware offset and adaptive modulation to improve the classification of overlapping classes.  
-3. **Classification model:** A lightweight receptive field-based CNN (LRF-CNN) is optimized to improve classification performance.
+Single-field-of-view (FoV) histopathological image classification is vital for colorectal cancer (CRC) diagnosis in mid- to low-tier hospitals lacking whole-slide imaging (WSI) scanners and storage, yet suffers from severe class imbalance and degraded performance. To address this, we propose a dual-level imbalance mitigation (DIM) framework integrating data-level and algorithm-level approaches. Specifically:  
+1. **Data-level approach:** A global context generative adversarial network (GCGAN) generates realistic minority-class images for augmentation to balance the dataset.  
+2. **Algorithm-level approach:** A frequency-aware adaptive focal loss (FAFL) applies a frequency-aware offset and adaptive modulation to better separate overlapping classes.  
+3. **Classification model:** A lightweight receptive field-based convolutional neural network (LRF-CNN) is trained under DIM to leverage both augmentation and loss modulation for improved classification.
 
-Extensive experiments on CRC datasets demonstrate that the proposed framework outperforms five state-of-the-art (SOTA) models in multiple evaluation metrics. Additional validation on multiple histopathological datasets confirms the generalizability and effectiveness of the proposed approaches.
+Extensive experiments on single-FoV CRC datasets demonstrate that DIM-equipped LRF-CNN outperforms five state-of-the-art models (SOTA) across multiple metrics. Furthermore, each DIM component enhances performance when applied individually to those models, and additional validation on diverse histopathological datasets confirms the generalizability and effectiveness of the proposed DIM framework. 
+
+
 
 
   
