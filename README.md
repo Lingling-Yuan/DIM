@@ -1,4 +1,4 @@
-# [JBHI 2026] Dual-level imbalance mitigation for single-foV colorectal histopathology image classification
+# [IEEE JBHI 2026] Dual-level imbalance mitigation for single-foV colorectal histopathology image classification
 
 
 ## Authors
